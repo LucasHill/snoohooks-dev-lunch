@@ -1,0 +1,36 @@
+{
+  "name": "snoohooks-dev-lunch",
+  "version": "1.0.0-beta0",
+  "description": "Let's learn to bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ts/dist/index.js",
+    "start-js": "node js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LucasHill/snoohooks-dev-lunch.git"
+  },
+  "engines": {
+    "node": "8.9.x",
+    "yarn": "1.7.0"
+  },
+  "author": "Lucas Hill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasHill/snoohooks-dev-lunch/issues"
+  },
+  "homepage": "https://github.com/LucasHill/snoohooks-dev-lunch#readme",
+  "dependencies": {
+    "@types/dotenv": "^4.0.2",
+    "@types/node": "^8.0.53",
+    "@types/node-schedule": "^1.2.1",
+    "@types/snoowrap": "^1.14.3",
+    "dotenv": "^4.0.0",
+    "node-schedule": "^1.2.5",
+    "snoohooks": "^1.0.0-beta.3",
+    "snoowrap": "^1.15.1",
+    "typescript": "^2.6.2"
+  }
+}
