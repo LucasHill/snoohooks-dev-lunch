@@ -14,7 +14,7 @@ const exampleHook = {
     directives() {
         return [{
                 subreddits: ['corgi'],
-                interval: '* * * * *',
+                interval: '*/5 * * * *',
                 commentMatcher: [/corgo/i, /sploot/i],
                 submissionMatcher: [/corgo/i, /sploot/i]
             }];
