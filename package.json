@@ -13,8 +13,7 @@
     "url": "git+ssh://git@github.com/LucasHill/snoohooks-dev-lunch.git"
   },
   "engines": {
-    "node": "8.9.x",
-    "yarn": "1.7.0"
+    "node": "8.9.x"
   },
   "author": "Lucas Hill",
   "license": "MIT",
